@@ -8,10 +8,9 @@ namespace ScreenSound
     {
         public static void Main(string[] args)
         {
-            //new MainExercicios();
+            new MainExercicios();
 
-
-            new FuncoesLambdas();
+            //new FuncoesLambdas();
 
 
         }

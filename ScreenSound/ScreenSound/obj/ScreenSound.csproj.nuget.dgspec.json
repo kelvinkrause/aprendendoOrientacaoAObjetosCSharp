@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cimol\\source\\repos\\ScreenSound\\ScreenSound\\ScreenSound.csproj": {}
+    "C:\\Users\\cimol\\Source\\Repos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\ScreenSound.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cimol\\source\\repos\\ScreenSound\\ScreenSound\\ScreenSound.csproj": {
+    "C:\\Users\\cimol\\Source\\Repos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\ScreenSound.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cimol\\source\\repos\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
+        "projectUniqueName": "C:\\Users\\cimol\\Source\\Repos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
         "projectName": "ScreenSound",
-        "projectPath": "C:\\Users\\cimol\\source\\repos\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
+        "projectPath": "C:\\Users\\cimol\\Source\\Repos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
         "packagesPath": "C:\\Users\\cimol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cimol\\source\\repos\\ScreenSound\\ScreenSound\\obj\\",
+        "outputPath": "C:\\Users\\cimol\\Source\\Repos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cimol\\AppData\\Roaming\\NuGet\\NuGet.Config",

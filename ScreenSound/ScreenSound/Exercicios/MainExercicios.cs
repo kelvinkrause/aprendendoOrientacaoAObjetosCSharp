@@ -33,6 +33,7 @@ namespace ScreenSound.Exercicios
             conta.ExibirDadosConta();
 
             Carro carro = new Carro();
+            carro.AnoFabricacao = 1950;
             carro.Acelerar();
             carro.Frear();
             carro.Buzinar();

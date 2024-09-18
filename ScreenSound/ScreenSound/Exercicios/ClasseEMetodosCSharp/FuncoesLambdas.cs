@@ -11,6 +11,8 @@ namespace ScreenSound.Exercicios.ClasseEMetodosCSharp
         public FuncoesLambdas()
         {
             ListaDeNumerosPares();
+
+            Console.WriteLine(Somar(2, 3));
         }
 
         void ListaDeNumerosPares()
@@ -19,6 +21,9 @@ namespace ScreenSound.Exercicios.ClasseEMetodosCSharp
             List<int> numerosPares = numeros.FindAll(numero => numero % 2 == 0);
             numerosPares.ForEach(numero => Console.WriteLine(numero));
         }
+
+        int Somar(int x, int y) => x + y;
+        
 
     }
 }

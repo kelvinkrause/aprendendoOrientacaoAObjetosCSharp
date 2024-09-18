@@ -10,7 +10,20 @@ namespace ScreenSound.Exercicios.ClasseEMetodosCSharp.Modelos
     {
         public string Fabricante { get; set; }
         public string Modelo { get; set; }
-        public int anoFabricacao { get; set; }
+        public int AnoFabricacao { 
+            get => AnoFabricacao; 
+            set
+            {
+                if(value < 1960 ||  value > 2023)
+                {
+                    Console.WriteLine("Ano Fabricação deve ser entre os anos 1960 e 2023");
+                }
+                else
+                {
+                    AnoFabricacao = value;
+                }
+            } 
+        }
 
 
         public void Acelerar() =>
@@ -21,7 +34,7 @@ namespace ScreenSound.Exercicios.ClasseEMetodosCSharp.Modelos
             Console.WriteLine("BI BI BI");
 
         public string DescricaoDetalhada =>
-            $"Carro: {Fabricante} {Modelo} ano: {anoFabricacao}";
+            $"Carro: {Fabricante} {Modelo} ano: {AnoFabricacao}";
 
 
     }

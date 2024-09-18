@@ -1,29 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\cimol\\source\\repos\\ScreenSound\\",
+  "WorkspaceRootPath": "C:\\Users\\cimol\\source\\repos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46518004-0B08-4F41-9BF6-3A76B2E1B372}|ScreenSound\\ScreenSound.csproj|c:\\users\\cimol\\source\\repos\\screensound\\screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46518004-0B08-4F41-9BF6-3A76B2E1B372}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46518004-0B08-4F41-9BF6-3A76B2E1B372}|ScreenSound\\ScreenSound.csproj|c:\\users\\cimol\\source\\repos\\screensound\\screensound\\exercicios\\classeemetodoscsharp\\funcoeslambdas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{46518004-0B08-4F41-9BF6-3A76B2E1B372}|ScreenSound\\ScreenSound.csproj|c:\\users\\cimol\\source\\repos\\aprendendoorientacaoaobjetoscsharp\\screensound\\screensound\\exercicios\\classeemetodoscsharp\\funcoeslambdas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46518004-0B08-4F41-9BF6-3A76B2E1B372}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\exercicios\\classeemetodoscsharp\\funcoeslambdas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46518004-0B08-4F41-9BF6-3A76B2E1B372}|ScreenSound\\ScreenSound.csproj|c:\\users\\cimol\\source\\repos\\screensound\\screensound\\exercicios\\classeemetodoscsharp\\modelos\\contacorrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{46518004-0B08-4F41-9BF6-3A76B2E1B372}|ScreenSound\\ScreenSound.csproj|c:\\users\\cimol\\source\\repos\\aprendendoorientacaoaobjetoscsharp\\screensound\\screensound\\exercicios\\classeemetodoscsharp\\modelos\\contacorrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46518004-0B08-4F41-9BF6-3A76B2E1B372}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\exercicios\\classeemetodoscsharp\\modelos\\contacorrente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46518004-0B08-4F41-9BF6-3A76B2E1B372}|ScreenSound\\ScreenSound.csproj|c:\\users\\cimol\\source\\repos\\screensound\\screensound\\exercicios\\mainexercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{46518004-0B08-4F41-9BF6-3A76B2E1B372}|ScreenSound\\ScreenSound.csproj|c:\\users\\cimol\\source\\repos\\aprendendoorientacaoaobjetoscsharp\\screensound\\screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46518004-0B08-4F41-9BF6-3A76B2E1B372}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46518004-0B08-4F41-9BF6-3A76B2E1B372}|ScreenSound\\ScreenSound.csproj|c:\\users\\cimol\\source\\repos\\aprendendoorientacaoaobjetoscsharp\\screensound\\screensound\\exercicios\\classeemetodoscsharp\\modelos\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46518004-0B08-4F41-9BF6-3A76B2E1B372}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\exercicios\\classeemetodoscsharp\\modelos\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46518004-0B08-4F41-9BF6-3A76B2E1B372}|ScreenSound\\ScreenSound.csproj|c:\\users\\cimol\\source\\repos\\aprendendoorientacaoaobjetoscsharp\\screensound\\screensound\\exercicios\\mainexercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46518004-0B08-4F41-9BF6-3A76B2E1B372}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\exercicios\\mainexercicios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46518004-0B08-4F41-9BF6-3A76B2E1B372}|ScreenSound\\ScreenSound.csproj|c:\\users\\cimol\\source\\repos\\screensound\\screensound\\exercicios\\classeemetodoscsharp\\modelos\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{46518004-0B08-4F41-9BF6-3A76B2E1B372}|ScreenSound\\ScreenSound.csproj|c:\\users\\cimol\\source\\repos\\aprendendoorientacaoaobjetoscsharp\\screensound\\screensound\\exercicios\\classeemetodoscsharp\\modelos\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46518004-0B08-4F41-9BF6-3A76B2E1B372}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\exercicios\\classeemetodoscsharp\\modelos\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46518004-0B08-4F41-9BF6-3A76B2E1B372}|ScreenSound\\ScreenSound.csproj|c:\\users\\cimol\\source\\repos\\screensound\\screensound\\modelos\\musicas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{46518004-0B08-4F41-9BF6-3A76B2E1B372}|ScreenSound\\ScreenSound.csproj|c:\\users\\cimol\\source\\repos\\aprendendoorientacaoaobjetoscsharp\\screensound\\screensound\\modelos\\musicas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46518004-0B08-4F41-9BF6-3A76B2E1B372}|ScreenSound\\ScreenSound.csproj|solutionrelative:screensound\\modelos\\musicas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,24 +46,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\cimol\\source\\repos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\Exercicios\\ClasseEMetodosCSharp\\Modelos\\Produto.cs",
+              "RelativeDocumentMoniker": "ScreenSound\\Exercicios\\ClasseEMetodosCSharp\\Modelos\\Produto.cs",
+              "ToolTip": "C:\\Users\\cimol\\source\\repos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\Exercicios\\ClasseEMetodosCSharp\\Modelos\\Produto.cs",
+              "RelativeToolTip": "ScreenSound\\Exercicios\\ClasseEMetodosCSharp\\Modelos\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T01:19:46.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "FuncoesLambdas.cs",
-              "DocumentMoniker": "C:\\Users\\cimol\\source\\repos\\ScreenSound\\ScreenSound\\Exercicios\\ClasseEMetodosCSharp\\FuncoesLambdas.cs",
+              "DocumentMoniker": "C:\\Users\\cimol\\source\\repos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\Exercicios\\ClasseEMetodosCSharp\\FuncoesLambdas.cs",
               "RelativeDocumentMoniker": "ScreenSound\\Exercicios\\ClasseEMetodosCSharp\\FuncoesLambdas.cs",
-              "ToolTip": "C:\\Users\\cimol\\source\\repos\\ScreenSound\\ScreenSound\\Exercicios\\ClasseEMetodosCSharp\\FuncoesLambdas.cs",
+              "ToolTip": "C:\\Users\\cimol\\source\\repos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\Exercicios\\ClasseEMetodosCSharp\\FuncoesLambdas.cs",
               "RelativeToolTip": "ScreenSound\\Exercicios\\ClasseEMetodosCSharp\\FuncoesLambdas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T22:54:37.162Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ContaCorrente.cs",
-              "DocumentMoniker": "C:\\Users\\cimol\\source\\repos\\ScreenSound\\ScreenSound\\Exercicios\\ClasseEMetodosCSharp\\Modelos\\ContaCorrente.cs",
+              "DocumentMoniker": "C:\\Users\\cimol\\source\\repos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\Exercicios\\ClasseEMetodosCSharp\\Modelos\\ContaCorrente.cs",
               "RelativeDocumentMoniker": "ScreenSound\\Exercicios\\ClasseEMetodosCSharp\\Modelos\\ContaCorrente.cs",
-              "ToolTip": "C:\\Users\\cimol\\source\\repos\\ScreenSound\\ScreenSound\\Exercicios\\ClasseEMetodosCSharp\\Modelos\\ContaCorrente.cs",
+              "ToolTip": "C:\\Users\\cimol\\source\\repos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\Exercicios\\ClasseEMetodosCSharp\\Modelos\\ContaCorrente.cs",
               "RelativeToolTip": "ScreenSound\\Exercicios\\ClasseEMetodosCSharp\\Modelos\\ContaCorrente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -68,37 +85,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Carro.cs",
-              "DocumentMoniker": "C:\\Users\\cimol\\source\\repos\\ScreenSound\\ScreenSound\\Exercicios\\ClasseEMetodosCSharp\\Modelos\\Carro.cs",
+              "DocumentMoniker": "C:\\Users\\cimol\\source\\repos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\Exercicios\\ClasseEMetodosCSharp\\Modelos\\Carro.cs",
               "RelativeDocumentMoniker": "ScreenSound\\Exercicios\\ClasseEMetodosCSharp\\Modelos\\Carro.cs",
-              "ToolTip": "C:\\Users\\cimol\\source\\repos\\ScreenSound\\ScreenSound\\Exercicios\\ClasseEMetodosCSharp\\Modelos\\Carro.cs",
+              "ToolTip": "C:\\Users\\cimol\\source\\repos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\Exercicios\\ClasseEMetodosCSharp\\Modelos\\Carro.cs",
               "RelativeToolTip": "ScreenSound\\Exercicios\\ClasseEMetodosCSharp\\Modelos\\Carro.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T22:52:39.702Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MainExercicios.cs",
-              "DocumentMoniker": "C:\\Users\\cimol\\source\\repos\\ScreenSound\\ScreenSound\\Exercicios\\MainExercicios.cs",
+              "DocumentMoniker": "C:\\Users\\cimol\\source\\repos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\Exercicios\\MainExercicios.cs",
               "RelativeDocumentMoniker": "ScreenSound\\Exercicios\\MainExercicios.cs",
-              "ToolTip": "C:\\Users\\cimol\\source\\repos\\ScreenSound\\ScreenSound\\Exercicios\\MainExercicios.cs",
+              "ToolTip": "C:\\Users\\cimol\\source\\repos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\Exercicios\\MainExercicios.cs",
               "RelativeToolTip": "ScreenSound\\Exercicios\\MainExercicios.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAiwAUAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwCMAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T22:51:44.093Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Musicas.cs",
-              "DocumentMoniker": "C:\\Users\\cimol\\source\\repos\\ScreenSound\\ScreenSound\\Modelos\\Musicas.cs",
+              "DocumentMoniker": "C:\\Users\\cimol\\source\\repos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\Modelos\\Musicas.cs",
               "RelativeDocumentMoniker": "ScreenSound\\Modelos\\Musicas.cs",
-              "ToolTip": "C:\\Users\\cimol\\source\\repos\\ScreenSound\\ScreenSound\\Modelos\\Musicas.cs",
+              "ToolTip": "C:\\Users\\cimol\\source\\repos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\Modelos\\Musicas.cs",
               "RelativeToolTip": "ScreenSound\\Modelos\\Musicas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -107,13 +124,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\cimol\\source\\repos\\ScreenSound\\ScreenSound\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\cimol\\source\\repos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\Program.cs",
               "RelativeDocumentMoniker": "ScreenSound\\Program.cs",
-              "ToolTip": "C:\\Users\\cimol\\source\\repos\\ScreenSound\\ScreenSound\\Program.cs",
+              "ToolTip": "C:\\Users\\cimol\\source\\repos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\Program.cs",
               "RelativeToolTip": "ScreenSound\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-17T22:48:33.562Z",
               "EditorCaption": ""
