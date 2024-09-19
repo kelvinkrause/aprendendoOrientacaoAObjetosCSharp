@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ScreenSound.Modelos
 {
-    public class Musicas
+    public class Musica
     {
         public string Nome { get; set; }
         public string Artista { get; set; }
