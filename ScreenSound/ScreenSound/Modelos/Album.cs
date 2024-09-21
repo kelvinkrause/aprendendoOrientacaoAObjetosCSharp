@@ -10,9 +10,14 @@ namespace ScreenSound.Modelos
     {
         private List<Musica> musicas = new List<Musica>();
 
-        public string Nome { get; set; }
+        public string? Nome { get; }
         public int DuracaoTotal => musicas.Sum(musicas => musicas.Duracao);
         // para cada musica na lista de musica, somar a duracao
+
+        public Album(string nome)
+        {
+            this.Nome = nome;
+        }
 
         public void AdicionaMusica(Musica musica)
         {

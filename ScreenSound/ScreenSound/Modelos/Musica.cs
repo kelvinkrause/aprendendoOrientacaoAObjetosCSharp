@@ -8,10 +8,16 @@ namespace ScreenSound.Modelos
 {
     public class Musica
     {
-        public string Nome { get; set; }
-        public string Artista { get; set; }
+        public string? Nome { get; set; }
+        public Banda? Artista { get;  }
         public int Duracao { get; set; }
         public bool Disponivel { get; set; }
+        public Genero? Genero { get; set; }
+
+        public Musica (Banda artista)
+        {
+            this.Artista = artista;
+        }
 
         //Get com Lambda
         public string DescricaoResumida

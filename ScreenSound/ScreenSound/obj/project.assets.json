@@ -1,39 +1,36 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net6.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\cimol\\.nuget\\packages\\": {}
+    "E:\\Users\\kelvin.krause\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cimol\\Source\\Repos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
+      "projectUniqueName": "F:\\Estudos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
       "projectName": "ScreenSound",
-      "projectPath": "C:\\Users\\cimol\\Source\\Repos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
-      "packagesPath": "C:\\Users\\cimol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cimol\\Source\\Repos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\obj\\",
+      "projectPath": "F:\\Estudos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\ScreenSound.csproj",
+      "packagesPath": "E:\\Users\\kelvin.krause\\.nuget\\packages\\",
+      "outputPath": "F:\\Estudos\\aprendendoOrientacaoAObjetosCSharp\\ScreenSound\\ScreenSound\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\cimol\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "E:\\Users\\kelvin.krause\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {}
         }
       },
@@ -41,16 +38,11 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "imports": [
           "net461",
           "net462",
@@ -67,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.424\\RuntimeIdentifierGraph.json"
       }
     }
   }

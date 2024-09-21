@@ -12,35 +12,38 @@ namespace ScreenSound
         {
             //new MainExercicios();
             //new FuncoesLambdas();
-            new AppRestaurante();
+            
+            /**/
 
-            /*
             Console.ReadKey(true);
             Console.Clear();
 
-            Album albumDoACDC = new Album();
-            albumDoACDC.Nome = "High Voltage";
+            Banda bandaACDC = new Banda("AC/DC");
 
-            Musica musica1 = new Musica();
+            Musica musica1 = new Musica(bandaACDC);
             musica1.Nome = "T.N.T.";
-            musica1.Artista = "AC/DC";
             musica1.Duracao = 210;
             musica1.Disponivel = true;
 
-            Musica musica2 = new Musica();
+            Musica musica2 = new Musica(bandaACDC);
             musica2.Nome = "High Voltage";
-            musica1.Artista = "AC/DC";
             musica2.Duracao = 249;
             musica2.Disponivel = true;
 
             Console.WriteLine(musica1.DescricaoResumida);
             Console.WriteLine(musica2.DescricaoResumida);
 
+            Album albumDoACDC = new Album("High Voltage");
+
             albumDoACDC.AdicionaMusica(musica1);
             albumDoACDC.AdicionaMusica(musica2);
 
             albumDoACDC.ExibirMusicasDoAlbum();
-            */
+
+            bandaACDC.AdicionarAlbuns(albumDoACDC);
+
+            bandaACDC.ExibirAlbuns();
+            
         }
     }
 

@@ -8,8 +8,8 @@ namespace ScreenSound.Exercicios.IntegrandoClassesEDefinindoRelacionamentos.Mode
 {
     public class Prato
     {
-        public string Nome { get; set; }
-        public string Ingredientes { get; set; }
+        public string? Nome { get; set; }
+        public string? Ingredientes { get; set; }
 
     }
 }
