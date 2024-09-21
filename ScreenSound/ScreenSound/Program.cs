@@ -20,15 +20,17 @@ namespace ScreenSound
 
             Banda bandaACDC = new Banda("AC/DC");
 
-            Musica musica1 = new Musica(bandaACDC);
-            musica1.Nome = "T.N.T.";
-            musica1.Duracao = 210;
-            musica1.Disponivel = true;
+            Musica musica1 = new Musica(bandaACDC, "T.N.T.")
+            {
+                Duracao = 210,
+                Disponivel = true
+            };
 
-            Musica musica2 = new Musica(bandaACDC);
-            musica2.Nome = "High Voltage";
-            musica2.Duracao = 249;
-            musica2.Disponivel = true;
+            Musica musica2 = new Musica(bandaACDC, "High Voltage")
+            {
+                Duracao = 249,
+                Disponivel = true
+            };
 
             Console.WriteLine(musica1.DescricaoResumida);
             Console.WriteLine(musica2.DescricaoResumida);

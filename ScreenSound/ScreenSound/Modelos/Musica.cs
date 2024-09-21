@@ -14,9 +14,10 @@ namespace ScreenSound.Modelos
         public bool Disponivel { get; set; }
         public Genero? Genero { get; set; }
 
-        public Musica (Banda artista)
+        public Musica (Banda artista, string nome)
         {
             this.Artista = artista;
+            this.Nome = nome;
         }
 
         //Get com Lambda
