@@ -76,7 +76,7 @@ namespace ScreenSound.Controle
             {
                 case 0: 
                     Console.WriteLine("Saindooo...");
-                    Thread.Sleep(200);
+                    Thread.Sleep(500);
                     Console.Clear();
                     break;
                 case 1: 

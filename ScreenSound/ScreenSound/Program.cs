@@ -11,6 +11,7 @@ namespace ScreenSound
     {
         public static void Main(string[] args)
         {
+            Console.Clear();
             //new MainExercicios();
             //new FuncoesLambdas();
             new MenuScreenSound();
