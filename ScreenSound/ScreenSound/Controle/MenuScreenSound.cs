@@ -6,81 +6,40 @@ namespace ScreenSound.Controle
 {
     public class MenuScreenSound
     {
+
+        private List<Banda> listaDeBandas = new List<Banda>();
+
         public MenuScreenSound()
         {
-            Banda bandaACDC = new Banda("AC/DC");
 
-            Musica tnt = new Musica(bandaACDC, "T.N.T.")
-            {
-                Duracao = 210,
-                Disponivel = true
-            };
-
-            Musica highVoltage = new Musica(bandaACDC, "High Voltage")
-            {
-                Duracao = 249,
-                Disponivel = true
-            };
-
-            Banda bandaTheNeighbourhood = new Banda("The Neighbourhood");
-
-            Musica sweaterWeather = new Musica(bandaTheNeighbourhood, "Sweater Wheater")
-            {
-                Duracao = 240,
-                Disponivel = true
-            };
-
-            Musica afraid = new Musica(bandaTheNeighbourhood, "Afraid")
-            {
-                Duracao = 276,
-                Disponivel = true
-            };
-
-            //Console.WriteLine(musica1.DescricaoResumida);
-            //Console.WriteLine(musica2.DescricaoResumida);
-
-            Album albumDoACDC = new Album("High Voltage");
-            Album albumDoTheNeighbourhood = new Album("I Love You");
-
-            albumDoACDC.AdicionaMusica(tnt);
-            albumDoACDC.AdicionaMusica(highVoltage);
-
-            albumDoTheNeighbourhood.AdicionaMusica(sweaterWeather);
-            albumDoTheNeighbourhood.AdicionaMusica(afraid);
-
-            //albumDoACDC.ExibirMusicasDoAlbum();
-
-            bandaACDC.AdicionarAlbuns(albumDoACDC);
-            bandaTheNeighbourhood.AdicionarAlbuns(albumDoTheNeighbourhood);
-
-            //bandaACDC.ExibirAlbuns();
+            listaDeBandas = new CarregaDados().ListaDeBandas();
 
             OpcoesMenu();
 
         }
 
-        public void OpcoesMenu()
+         void OpcoesMenu()
         {
             Console.WriteLine("Digite 1 para ver as bandas disponíveis do Screen Sound");
             Console.WriteLine("Digite 2 para criar uma criar uma playlist");
-            //Console.WriteLine("");
-            //Console.WriteLine("");
             Console.WriteLine("Digite 0 para sair");
             Opcoes();
         }
 
-        public void Opcoes()
+         void Opcoes()
         {
+            Console.Write("\nDigite sua opção: ");
             int opcao = int.Parse(Console.ReadLine()!);
             switch (opcao)
             {
                 case 0: 
+                    Console.Clear();
                     Console.WriteLine("Saindooo...");
                     Thread.Sleep(500);
                     Console.Clear();
                     break;
                 case 1: 
-                    Console.WriteLine("Opcao 1");
+                    ExibeBandas();
                     break;
                 case 2: 
                     Console.WriteLine("Opção 2");
@@ -90,6 +49,29 @@ namespace ScreenSound.Controle
                     break;
              
             }
+        }
+
+        void ExibeBandas()
+        {
+            Console.Clear();
+            foreach (Banda banda in listaDeBandas)
+            {
+                Console.WriteLine($"Banda: {banda.Nome}");
+                List<Album> albuns = banda.ExibirAlbuns();
+                foreach (Album album in albuns)
+                {
+                    Console.WriteLine($"  Album: {album.Nome}");
+                }
+            }
+            RetornoMenu();
+        }
+
+        void RetornoMenu()
+        {
+            Console.Write("\nTecle enter para voltar ao menu principal: ");
+            Console.ReadKey(true);
+            Console.Clear();
+            OpcoesMenu();
         }
 
     }

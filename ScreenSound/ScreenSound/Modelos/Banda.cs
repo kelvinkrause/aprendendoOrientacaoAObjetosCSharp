@@ -15,13 +15,17 @@ namespace ScreenSound.Modelos
             albunsBanda.Add(album);
         }
 
-        public void ExibirAlbuns()
+        public List<Album> ExibirAlbuns()
         {
+            return albunsBanda;
+            
+            /*
             Console.WriteLine($"*** BANDA: {this.Nome} ***");
             foreach (var album in albunsBanda)
             {
                 Console.WriteLine($"Albuns: {album.Nome}");
             }
+            */
         }
 
     }
