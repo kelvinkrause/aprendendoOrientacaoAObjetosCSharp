@@ -12,11 +12,6 @@ namespace ScreenSound
         {
             //new MainExercicios();
             //new FuncoesLambdas();
-            
-            /**/
-
-            Console.ReadKey(true);
-            Console.Clear();
 
             Banda bandaACDC = new Banda("AC/DC");
 
@@ -48,5 +43,4 @@ namespace ScreenSound
             
         }
     }
-
 }
