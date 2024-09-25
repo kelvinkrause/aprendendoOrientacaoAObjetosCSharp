@@ -8,8 +8,8 @@ namespace ScreenSound.Exercicios.ClasseEMetodosCSharp.Modelos
 {
     public class Produto
     {
-        public string Nome { get; set; }
-        public string Marca { get; set; }
+        public string? Nome { get; set; }
+        public string? Marca { get; set; }
         public int Preco_em_centavos {
             get => Preco_em_centavos;
             set
