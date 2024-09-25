@@ -11,11 +11,8 @@ namespace ScreenSound.Controle
 
         public MenuScreenSound()
         {
-
             listaDeBandas = new CarregaDados().ListaDeBandas();
-
             OpcoesMenu();
-
         }
 
          void OpcoesMenu()
@@ -29,27 +26,40 @@ namespace ScreenSound.Controle
          void Opcoes()
         {
             Console.Write("\nDigite sua opção: ");
-            int opcao = int.Parse(Console.ReadLine()!);
-            switch (opcao)
+            try
             {
-                case 0: 
-                    Console.Clear();
-                    Console.WriteLine("Saindooo...");
-                    Thread.Sleep(500);
-                    Console.Clear();
-                    break;
-                case 1: 
-                    ExibeBandas();
-                    break;
-                case 2: 
-                    Console.WriteLine("Opção 2");
-                    break;
-                default: 
-                    Console.WriteLine("Opção desconhecida");
-                    break;
-             
+                int opcao = int.Parse(Console.ReadLine()!);
+                switch (opcao)
+                {
+                    case 0: 
+                        Console.Clear();
+                        Console.WriteLine("Saindooo...");
+                        Thread.Sleep(1000);
+                        Console.Clear();
+                        break;
+                    case 1: 
+                        ExibeBandas();
+                        break;
+                    case 2: 
+                        Console.WriteLine("Opção 2");
+                        break;
+                    default: 
+                        Console.WriteLine("Opção desconhecida");
+                        Thread.Sleep(1000);
+                        Console.Clear();
+                        OpcoesMenu();
+                        break;
+
+                }
+            } 
+            catch (FormatException)
+            {
+                Console.WriteLine($"Valor inválido.");
+                Thread.Sleep(1000);
+                Console.Clear();
+                OpcoesMenu();
             }
-        }
+        }   
 
         void ExibeBandas()
         {
@@ -60,7 +70,7 @@ namespace ScreenSound.Controle
                 List<Album> albuns = banda.ExibirAlbuns();
                 foreach (Album album in albuns)
                 {
-                    Console.WriteLine($"  Album: {album.Nome}");
+                    Console.WriteLine($"    Album: {album.Nome}");
                 }
             }
             RetornoMenu();

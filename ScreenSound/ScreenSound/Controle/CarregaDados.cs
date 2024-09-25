@@ -45,6 +45,7 @@ namespace ScreenSound.Controle
 
             Musica cryBaby = new Musica(bandaTheNeighbourhood, "Cry Baby");
             Musica theBeach = new Musica(bandaTheNeighbourhood, "The Beach");
+            Musica single = new Musica(bandaTheNeighbourhood, "Single");
 
             Album albumHighVoltageACDC = new Album("High Voltage");
             Album albumILoveYouTNeigh = new Album("I Love You.");
@@ -59,6 +60,7 @@ namespace ScreenSound.Controle
             albumWipedOutTNeigh.AdicionaMusica(afraid);
             albumWipedOutTNeigh.AdicionaMusica(cryBaby);
             albumWipedOutTNeigh.AdicionaMusica(theBeach);
+            albumWipedOutTNeigh.AdicionaMusica(single);
 
             bandaACDC.AdicionarAlbuns(albumHighVoltageACDC);
             bandaTheNeighbourhood.AdicionarAlbuns(albumILoveYouTNeigh);
